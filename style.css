@@ -1,0 +1,76 @@
+.calculator{
+    width: 250px;
+    margin: 50px auto;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url("81Xza8AtCFL._AC_UF1000,1000_QL80_DpWeblab_.jpg");
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#display {
+    width: 80%;
+    padding: 5px;
+    margin: 10px auto;
+    border: 2px black;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    background: solid black;
+}
+
+h3 {
+        color: solid blue; 
+        text-align: center;
+        text-shadow: black;
+        margin: 0;
+        padding: 5px 10px;
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 5px;
+        
+    }
+    
+    .colored-heading {
+        background-color: red;
+        color: white; 
+        font-size: large;
+    }
+    
+    .white-heading {
+        background-color: white;
+        color: black; 
+    }
+    
+    .blue-heading {
+        background-color: blue;
+        color: white; 
+    }
+
+h4 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+.buttons button {
+    border: 2px solid yellow;
+    border-radius: 7px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
